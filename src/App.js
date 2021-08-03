@@ -1,9 +1,14 @@
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+import "./index.scss";
+
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<h1>hola</h1>
-			</header>
+			<Header />
+			<Main />
+			<Footer />
 		</div>
 	);
 }
