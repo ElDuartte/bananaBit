@@ -3,20 +3,20 @@ import React from "react";
 const Footer = () => {
 	return (
 		<footer>
-			<section class="left">
+			<section className="left">
 				<ul>
 					<li>
-						<a href="#">Linkedin</a>
+						<p>Linkedin</p>
 					</li>
 					<li>
-						<a href="#">Crunchbase</a>
+						<p>Crunchbase</p>
 					</li>
 					<li>
-						<a href="#">Hackernews</a>
+						<p>Hackernews</p>
 					</li>
 				</ul>
 			</section>
-			<section class="rigth">
+			<section className="rigth">
 				{/* <img src="assets/img/logo-footer.png" alt="Logo de Barabit 2020" /> */}
 			</section>
 		</footer>
