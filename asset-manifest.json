@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/bananaBit/static/css/main.902d2feb.chunk.css",
-    "main.js": "/bananaBit/static/js/main.c53223f2.chunk.js",
-    "main.js.map": "/bananaBit/static/js/main.c53223f2.chunk.js.map",
+    "main.css": "/bananaBit/static/css/main.05fb55e2.chunk.css",
+    "main.js": "/bananaBit/static/js/main.f575d6f6.chunk.js",
+    "main.js.map": "/bananaBit/static/js/main.f575d6f6.chunk.js.map",
     "runtime-main.js": "/bananaBit/static/js/runtime-main.92c8f20f.js",
     "runtime-main.js.map": "/bananaBit/static/js/runtime-main.92c8f20f.js.map",
     "static/js/2.bd4d666a.chunk.js": "/bananaBit/static/js/2.bd4d666a.chunk.js",
     "static/js/2.bd4d666a.chunk.js.map": "/bananaBit/static/js/2.bd4d666a.chunk.js.map",
     "index.html": "/bananaBit/index.html",
-    "static/css/main.902d2feb.chunk.css.map": "/bananaBit/static/css/main.902d2feb.chunk.css.map",
-    "static/js/2.bd4d666a.chunk.js.LICENSE.txt": "/bananaBit/static/js/2.bd4d666a.chunk.js.LICENSE.txt"
+    "static/css/main.05fb55e2.chunk.css.map": "/bananaBit/static/css/main.05fb55e2.chunk.css.map",
+    "static/js/2.bd4d666a.chunk.js.LICENSE.txt": "/bananaBit/static/js/2.bd4d666a.chunk.js.LICENSE.txt",
+    "static/media/banana.e3a66e82.webp": "/bananaBit/static/media/banana.e3a66e82.webp",
+    "static/media/index.scss": "/bananaBit/static/media/bitcoinbaby2x.deed428e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.92c8f20f.js",
     "static/js/2.bd4d666a.chunk.js",
-    "static/css/main.902d2feb.chunk.css",
-    "static/js/main.c53223f2.chunk.js"
+    "static/css/main.05fb55e2.chunk.css",
+    "static/js/main.f575d6f6.chunk.js"
   ]
 }
