@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 // -----------------VARIABLES
 @import "./sass/lib/_var.scss";
 
@@ -8,6 +9,8 @@
 @import "./sass/Components/Header.scss";
 @import "./sass/Components/main-exchange-container.scss";
 @import "./sass/Components/main-product-detail.scss";
+@import "./sass/Components/coin.scss";
+@import "./sass/Components/searchCoin.scss";
 @import "./sass/Components/bitcoin-img-container.scss";
 @import "./sass/Components/main-plans-container.scss";
 @import "./sass/Components/Footer.scss";

@@ -3,6 +3,7 @@
 	min-width: 320px;
 	padding-bottom: 70px;
 	text-align: center;
+	// margin-bottom: 100px;
 }
 .plans--title {
 	width: 90%;
@@ -26,32 +27,25 @@
 	color: #757575;
 }
 .plans-container--slider {
-	/* display: flex; */
-	/* flex-wrap: nowrap; */
-	/* overflow-x: auto; */
 	height: 350px;
-	/* justify-content: center; */
-	/* scroll-snap-type: x proximity; */
 	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
 }
 .plans-container--card {
-	/* flex: 0 0 auto; */
 	display: inline-block;
-	/* scroll-snap-align: center; */
 	width: 70%;
 	min-width: 190px;
 	max-width: 300px;
 	height: 270px;
 	margin: 50px 5px 0;
+
 	padding: 10px 10px;
 	background-color: $just-white;
 	border-radius: 15px;
 	box-shadow: 0 4px 8px rgba(89, 73, 30, 0.4);
 }
 .recomendado {
-	/* width: 120px; */
 	height: 3rem;
 	font-size: 1.5rem;
 	padding: 6px;
@@ -61,7 +55,6 @@
 	font-weight: bold;
 }
 .recomendado-second {
-	/* width: 120px; */
 	height: 3rem;
 	font-size: 1.5rem;
 	padding: 6px;
@@ -71,7 +64,6 @@
 	font-weight: bold;
 }
 .recomendado-third {
-	/* width: 120px; */
 	height: 3rem;
 	font-size: 1.5rem;
 	padding: 6px;
@@ -108,8 +100,9 @@
 	width: 150px;
 	height: 48px;
 	margin-top: 10px;
-	background-color: $off-white;
-	border: 2px solid $bitcoin-orange;
+	margin-bottom: 25px;
+	background-color: $soft-orange;
+	border: 1px solid $soft-orange;
 	border-radius: 4px;
 	font-size: 1.4rem;
 	font-weight: bold;
@@ -117,7 +110,6 @@
 	align-self: center;
 	text-align: center;
 	color: $black;
-	font-family: "DM Sans", sans-serif;
 }
 .plan-card--ca span {
 	display: inline-block;

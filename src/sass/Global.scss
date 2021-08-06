@@ -2,10 +2,10 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: $font;
 }
 html {
 	font-size: 62.5%;
-	font-family: "DM Sans", sans-serif;
 	scroll-behavior: smooth;
 }
 
@@ -13,4 +13,8 @@ main {
 	width: 100%;
 	height: auto;
 	background-color: $off-white;
+}
+
+h1 {
+	font-weight: bold;
 }

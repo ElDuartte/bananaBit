@@ -13,8 +13,8 @@ const MainProductDetail = () => {
 				<h2>Creamos un producto sin comparación.</h2>
 				<p>Confiable y diseñado para su uso diario.</p>
 			</div>
-			<section className="product-cards-container">
-				<article className="product-detail-card">
+			<section className="product-cards-container row">
+				<article className="product-detail-card col-4">
 					<span className="icon-card clock"></span>
 					<h3 className="product-card-title">Tiempo real</h3>
 					<p className="product-card-body">
@@ -22,7 +22,7 @@ const MainProductDetail = () => {
 						determinan el comportamiento.
 					</p>
 				</article>
-				<article className="product-detail-card">
+				<article className="product-detail-card col-4">
 					<span className="icon-card eye"></span>
 					<h3 className="product-card-title">No hay tasas escondidas</h3>
 					<p className="product-card-body">
@@ -30,7 +30,7 @@ const MainProductDetail = () => {
 						el costo real de lo estás alquilando.
 					</p>
 				</article>
-				<article className="product-detail-card">
+				<article className="product-detail-card col-4">
 					<span className="icon-card dollar"></span>
 					<h3 className="product-card-title">Compara monedas</h3>
 					<p className="product-card-body">
@@ -38,7 +38,8 @@ const MainProductDetail = () => {
 						el mercado actual.
 					</p>
 				</article>
-				<article className="product-detail-card">
+
+				<article className="product-detail-card col-4">
 					<span className="icon-card circle"></span>
 					<h3 className="product-card-title">Información confiable</h3>
 					<p className="product-card-body">

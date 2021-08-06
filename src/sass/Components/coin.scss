@@ -1,0 +1,38 @@
+.coin-container {
+	display: inline-block;
+	width: 270px;
+	// height: 275px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	color: $just-white;
+	background-color: $black;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.coin-slide {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.coin-logo {
+	height: 100px;
+}
+
+.coin-name {
+	color: $bitcoin-orange;
+}
+
+.coin-symbol {
+	text-transform: uppercase;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}

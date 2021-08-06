@@ -26,7 +26,7 @@
 	font-size: 2.4rem;
 	font-weight: bold;
 	line-height: 2.6rem;
-	color: val(--black);
+	color: $black;
 }
 .main-exchange-container p {
 	margin-bottom: 30px;
@@ -54,10 +54,7 @@
 }
 
 .main--table-container {
-	font-family: "Inter", monospace;
 	scroll-snap-align: center;
-	/* width: 235px; */
-	/* height: 194px; */
 }
 .main--table-container .main--grid-container {
 	width: 225px;
@@ -71,7 +68,6 @@
 }
 
 .main--table-container .main--table-title {
-	font-family: "DM Sans", sans-serif;
 	color: #ff9536;
 	font-weight: 700;
 	font-size: 1.8rem;
@@ -98,26 +94,6 @@
 	text-align: center;
 }
 
-.main--table-container .main--grid-container .up {
-	display: inline-block;
-	width: 13px;
-	height: 8px;
-	background-image: url("../../media/assets/icons/trending-up.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	margin-left: 5px;
-}
-.main--table-container .main--grid-container .down {
-	display: inline-block;
-	width: 13px;
-	height: 8px;
-	background-image: url("../../media/assets/icons/trending-down.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	margin-left: 5px;
-}
 .main--table-container .main--table-update {
 	color: $warm-black;
 	/* width: 55%; */
@@ -134,7 +110,6 @@
 }
 
 .main--table-container .main--table-title-second {
-	font-family: "DM Sans", sans-serif;
 	color: #1a9af7;
 	font-weight: 700;
 	font-size: 1.8rem;
