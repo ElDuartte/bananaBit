@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from "../media/logo/banana.webp";
-import arrowDown from "../media/assets/icons/down-arrow.png";
+// import arrowDown from "../media/assets/icons/down-arrow.png";
 
 const Header = () => {
 	return (

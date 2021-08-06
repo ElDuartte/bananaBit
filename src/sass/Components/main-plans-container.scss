@@ -48,34 +48,37 @@
 	padding: 10px 10px;
 	background-color: $just-white;
 	border-radius: 15px;
-	box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+	box-shadow: 0 4px 8px rgba(89, 73, 30, 0.4);
 }
 .recomendado {
 	/* width: 120px; */
-	height: 31px;
-	font-size: 1.2rem;
+	height: 3rem;
+	font-size: 1.5rem;
 	padding: 6px;
 	background-color: $bitcoin-orange;
 	border-radius: 8px;
 	color: $just-white;
+	font-weight: bold;
 }
 .recomendado-second {
 	/* width: 120px; */
-	height: 31px;
-	font-size: 1.2rem;
+	height: 3rem;
+	font-size: 1.5rem;
 	padding: 6px;
-	background-color: #0791e6;
+	background-color: $secondary-blue;
 	border-radius: 8px;
 	color: $just-white;
+	font-weight: bold;
 }
 .recomendado-third {
 	/* width: 120px; */
-	height: 31px;
-	font-size: 1.2rem;
+	height: 3rem;
+	font-size: 1.5rem;
 	padding: 6px;
 	background-color: $black;
 	border-radius: 8px;
 	color: $just-white;
+	font-weight: bold;
 }
 .plan-card--title {
 	padding-top: 30px;

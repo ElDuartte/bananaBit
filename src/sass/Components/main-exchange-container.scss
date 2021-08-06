@@ -48,6 +48,9 @@
 .table-slide {
 	display: inline-block;
 	margin-bottom: 10px;
+	margin-right: 5px;
+	background-color: $black;
+	border-radius: 8px;
 }
 
 .main--table-container {
@@ -62,9 +65,9 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin: 0 auto;
-	background: $just-white;
+	background: $black;
 	border-radius: 8px;
-	color: #b5b0ac;
+	color: $just-white;
 }
 
 .main--table-container .main--table-title {
@@ -74,7 +77,7 @@
 	font-size: 1.8rem;
 	line-height: 2.344rem;
 	width: 60%;
-	margin: 0 auto 12px auto;
+	margin: 10px auto 10px auto;
 	padding-left: 15px;
 	text-align: left;
 }
@@ -88,7 +91,7 @@
 	text-align: left;
 }
 .main--table-container .main--grid-container .value {
-	color: #757575;
+	color: $just-white;
 	font-weight: 400;
 	font-size: 1.4rem;
 	line-height: 1.694;
@@ -119,7 +122,8 @@
 	color: $warm-black;
 	/* width: 55%; */
 	width: 225px;
-	margin-right: 12px;
+	margin-right: 5px;
+	margin-left: 5px;
 	border-radius: 8px;
 	background-color: $soft-orange;
 	font-weight: 500;
@@ -136,7 +140,7 @@
 	font-size: 1.8rem;
 	line-height: 2.344rem;
 	width: 60%;
-	margin: 0 auto 12px auto;
+	margin: 10px auto 10px auto;
 	padding-left: 15px;
 	text-align: left;
 }
@@ -144,7 +148,8 @@
 	color: $warm-black;
 	/* width: 55%; */
 	width: 225px;
-	margin-left: 12px;
+	margin-right: 5px;
+	margin-left: 5px;
 	border-radius: 8px;
 	background-color: $soft-blue;
 	font-weight: 500;
