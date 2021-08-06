@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class InfoSlider extends Component {
+export default class InfoCard extends Component {
 	constructor() {
 		super();
 		this.state = {

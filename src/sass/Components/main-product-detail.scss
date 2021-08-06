@@ -4,7 +4,7 @@
 	min-width: 320px;
 	height: auto;
 	padding: 20px 10px;
-	background-color: var(--warm-black);
+	background-color: $warm-black;
 }
 
 .product-detail--banana-logo {
@@ -29,7 +29,7 @@
 	font-size: 2.4rem;
 	font-weight: bold;
 	line-height: 2.6rem;
-	color: var(--just-white);
+	color: $just-white;
 }
 .product-detail--title p {
 	margin-bottom: 20px;
@@ -45,7 +45,7 @@
 	height: 170px;
 	margin: 15px auto;
 	padding: 15px;
-	background-color: var(--black);
+	background-color: $black;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
